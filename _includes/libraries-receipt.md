@@ -49,7 +49,7 @@ if they match the data entered.
 {% endif %}
   * _Index Kit_: select No indices from the drop-down
   * _Kit_: select any option from the drop-down
-  * _Size (BPA)_: 430
+  * _Size (bp)_: 430
 1. Click _Save_ at the top right
 
 
