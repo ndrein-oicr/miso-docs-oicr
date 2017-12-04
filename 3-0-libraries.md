@@ -84,7 +84,7 @@ indices at a particular plate location. Once the libraries are sorted based on t
 parent sample's location, the indices can be copy-pasted in the order that the 
 robot requires.
 
-{% include libraries-receipt.md %}
+{% include libraries-receipt.md detailed=page.is-detailed %}
 
 {% include libraries-qc.md %}
 

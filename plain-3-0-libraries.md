@@ -44,7 +44,7 @@ inbox.
 
 {% include libraries-from-samples.md detailed=page.is-detailed %}
 
-{% include libraries-receipt.md %}
+{% include libraries-receipt.md detailed=page.is-detailed %}
 
 {% include libraries-qc.md %}
 

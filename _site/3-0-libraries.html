@@ -274,6 +274,10 @@ robot requires.</li>
 and only makes sense if the libraries were prepared in-house. Libraries may also be received without
 the samples. The sample information is still required, but it can all be entered in one step.</p>
 
+<p>When a library is entered in this way, the automatically-created sample hierarchy will include an
+Identity, Tissue, Stock, and Aliquot. Existing Identities and Tissues may be included in the hierarchy
+if they match the data entered.</p>
+
 <h2 id="entering-received-libraries">3.1 Entering received Libraries</h2>
 
 <ol>
@@ -282,7 +286,7 @@ the samples. The sample information is still required, but it can all be entered
     <p>Click the <em>Receive</em> button at the top of the table.</p>
   </li>
   <li>
-    <p>In the dialog, select <em>Quantity</em>: 1, and click <em>Receive</em></p>
+    <p>In the dialog, select <em>Aliquot Class</em>: gDNA (aliquot), and <em>Quantity</em>: 1, and click <em>Receive</em></p>
   </li>
   <li>Select or enter the following data:</li>
 </ol>
@@ -293,8 +297,20 @@ the samples. The sample information is still required, but it can all be entered
   <li>
     <p><em>Project</em>: Select your project from the drop-down.</p>
   </li>
+  <li><em>External Name</em>: Enter <code class="highlighter-rouge">PROJ_ID10</code>, replacing the <code class="highlighter-rouge">PROJ</code> with your own project name. The
+  <em>Identity Alias</em> column should change to show <code class="highlighter-rouge">First Receipt (PROJ)</code>.</li>
+  <li><em>Donor Sex</em>: select any option from the drop-down.</li>
+  <li><em>Tissue Origin</em>: select Pa (Pancreas) from the drop-down.</li>
+  <li><em>Tissue Type</em>: select P (Primary tumour) from the drop-down.</li>
+  <li><em>Times Received</em>: 1</li>
+  <li>
+    <p><em>Tube Number</em>: 1</p>
+  </li>
   <li>
     <p><em>Date of receipt</em>: select today&#39;s date</p>
+  </li>
+  <li>
+    <p><em>Design</em>: select WG from the drop-down</p>
   </li>
   <li><em>Platform</em>: select Illumina from the drop-down</li>
   <li>
